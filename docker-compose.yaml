@@ -7,6 +7,7 @@ services:
     # environment:
     #   - MONGO_INITDB_ROOT_USERNAME=ng1n3
     #   - MONGO_INITDB_ROOT_PASSWORD=123456
+    # container_name: mongodb
     env_file:
       - ./mongo.env
     # networks:
